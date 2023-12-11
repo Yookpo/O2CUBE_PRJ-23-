@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "connectThreadsGame.sln"
+    "dotnet.defaultSolution": "O2CUBE_PRJ-23-.sln"
 }
