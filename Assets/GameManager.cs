@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
         if(correctedThreads == totalThreads)
         {
-            SceneManager.LoadScene("secondScene");
+            SceneManager.LoadScene("INTER_2_maze");
             Debug.Log("correct Win!");
         }
     }

@@ -17,7 +17,7 @@ public class LoadingScene : MonoBehaviour
     IEnumerator LoadScene()
     {
         yield return null;
-        AsyncOperation operation = SceneManager.LoadSceneAsync("Interaction1");
+        AsyncOperation operation = SceneManager.LoadSceneAsync("INTER_1_puzzle");
         operation.allowSceneActivation = false;
 
 
