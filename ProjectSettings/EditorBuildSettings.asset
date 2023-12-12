@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/GameScene/2.Loading.unity
     guid: 6572b6c12bcc5f1448c27359bf8695bd
   - enabled: 1
+    path: Assets/GameScene/Scene1.unity
+    guid: de00c7a71acc4e840b288d02d2675ddf
+  - enabled: 1
     path: Assets/GameScene/INTER_1_puzzle.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
