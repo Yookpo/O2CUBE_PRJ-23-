@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngineInternal;
+using UnityEngine.SceneManagement;
 
 public class MazeDrawLine : MonoBehaviour
 {
@@ -71,6 +72,8 @@ public class MazeDrawLine : MonoBehaviour
                     /*
                     미로의 끝에 다다렀을 때 실행할 코드부분
                      */
+
+                    SceneManager.LoadScene("Scene3"); // 클리어 시, 씬3으로 가기
                 }
             }
 
